@@ -15,3 +15,4 @@ darthnitrox microservices repository
 Можно изменить префикс создавамых сущностей через docker-compose двумя способами  
 1. Изменить переменную COMPOSE_PROJECT_NAME= < your project >
 2. Выполнить docker-compose с флагом -p < your project > up -d
+
