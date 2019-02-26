@@ -4,7 +4,7 @@ stages:
   - build
   - test
   - review
-  - staging
+  - stage
   - production
 
 variables:
@@ -50,15 +50,15 @@ branch: review
   except:
     - master
 
-staging:
-  stage: staging
+stage:
+  stage: stage
   when: manual
   only:
     - /^\d+\.\d+\.\d+/
   script:
-    - echo 'Deploy staging'
+    - echo 'Deploy stage'
   environment:
-    name: staging
+    name: stage
     url: http://beta.example.com
 
 production:
