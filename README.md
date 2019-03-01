@@ -26,3 +26,5 @@ docker inspect conrainer
 1. Изменить переменную COMPOSE_PROJECT_NAME= < your project >
 2. Выполнить docker-compose с флагом -p < your project > up -d
 
+# Monitoring-1
+В процесе было выполнено развертывание prometheus и его настройка, node exporter. Подключены endpoint ui, comment, post-py. Добавлено описание разверытвания сервисов prometheus и node exporter в docker-compose.yml
