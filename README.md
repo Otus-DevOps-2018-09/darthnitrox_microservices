@@ -26,3 +26,5 @@ docker inspect conrainer
 1. Изменить переменную COMPOSE_PROJECT_NAME= < your project >
 2. Выполнить docker-compose с флагом -p < your project > up -d
 
+# Gitlab-ci-1
+Развернул gitlab, настроил runner, познакомился с описанием этапов тестирования приложения reddit .gitlab-ci.yml
