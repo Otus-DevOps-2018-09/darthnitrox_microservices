@@ -34,3 +34,6 @@ docker inspect conrainer
 - Добавил динамические окружения
 - Добавил окружения для препродуктового тестирования приложения (stage)
 - Продуктовое коружение (production)
+
+# Monitoring-1
+В процесе было выполнено развертывание prometheus и его настройка, node exporter. Подключены endpoint ui, comment, post-py. Добавлено описание разверытвания сервисов prometheus и node exporter в docker-compose.yml
