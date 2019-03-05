@@ -26,5 +26,14 @@ docker inspect conrainer
 1. Изменить переменную COMPOSE_PROJECT_NAME= < your project >
 2. Выполнить docker-compose с флагом -p < your project > up -d
 
+# Gitlab-ci-1
+Развернул gitlab, настроил runner, познакомился с описанием этапов тестирования приложения reddit .gitlab-ci.yml
+
+# Gitlab-ci-2
+Усовершенствовал текущий pipline:  
+- Добавил динамические окружения
+- Добавил окружения для препродуктового тестирования приложения (stage)
+- Продуктовое коружение (production)
+
 # Monitoring-1
 В процесе было выполнено развертывание prometheus и его настройка, node exporter. Подключены endpoint ui, comment, post-py. Добавлено описание разверытвания сервисов prometheus и node exporter в docker-compose.yml
