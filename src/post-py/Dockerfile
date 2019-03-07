@@ -3,7 +3,7 @@ FROM python:3.6.0-alpine
 WORKDIR /app
 ADD . /app
 
-RUN apk add --update build-base \ 
+RUN apk add --update build-base musl-dev gcc \ 
     && pip install --upgrade pip \ 
     && pip install -r /app/requirements.txt
 
