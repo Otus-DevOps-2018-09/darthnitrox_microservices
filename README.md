@@ -37,3 +37,6 @@ docker inspect conrainer
 
 # Monitoring-1
 В процесе было выполнено развертывание prometheus и его настройка, node exporter. Подключены endpoint ui, comment, post-py. Добавлено описание разверытвания сервисов prometheus и node exporter в docker-compose.yml
+
+# Monitoring-2
+Была установлена GRAFANA для визуализации метрик из prometheus. Был установлен и настроен alert в случае отказа основных сервисов приложения. Был настроен Exporter для сбора метрик по работе docker контейнеров.
