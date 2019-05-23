@@ -4,11 +4,14 @@ kind: Service
 metadata:
   name: kubernetes-dasboard
   namespace: kube-system
+  labels:
+    kubernetes.io/cluster-service: "true"
+    addonmanager.kubernetes.io/mode: Reconcile
 spec:
   type: NodePort
   ports:
     - nodePort: 30001
-      port: 8443
+      port: 443
       protocol: TCP
       targetPort: 8443
   selector:
